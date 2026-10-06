@@ -1,0 +1,30 @@
+Option Compare Database
+Public db As Database
+Public sIdP As String
+Public sStarNow As String
+Public sDataN As String
+Public sTekma As String
+Public sSodelo As String
+Public sNastop As String
+Public sIdPr As String
+Public sOpen As String
+
+
+
+
+
+
+
+Function IsLoaded(ByVal strFormName As String) As Integer
+ ' Returns True if the specified form is open in Form view or Datasheet view.
+    
+    Const conObjStateClosed = 0
+    Const conDesignView = 0
+    
+    If SysCmd(acSysCmdGetObjectState, acForm, strFormName) <> conObjStateClosed Then
+        If Forms(strFormName).CurrentView <> conDesignView Then
+            IsLoaded = True
+        End If
+    End If
+    
+End Function

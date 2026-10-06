@@ -1,0 +1,529 @@
+Version =21
+VersionRequired =20
+Checksum =-62455729
+Begin Form
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    FilterOn = NotDefault
+    AllowEdits = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularCharSet =204
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10072
+    DatasheetFontHeight =11
+    ItemSuffix =16
+    Left =1140
+    Top =1980
+    Right =11745
+    Bottom =6750
+    Filter ="[ID]=4"
+    RecSrcDt = Begin
+        0x666311abd50fe540
+    End
+    GUID = Begin
+        0xea3543d0e2882b4388a12254f3ead2ef
+    End
+    RecordSource ="Allegati"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =255
+    PictureSizeMode =1
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontCharSet =186
+            TextFontFamily =18
+            FontSize =10
+            BorderColor =8695964
+            ForeColor =7169897
+            FontName ="Book Antiqua"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =7169897
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =7169897
+        End
+        Begin Image
+            BackStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =7169897
+        End
+        Begin CommandButton
+            TextFontCharSet =186
+            TextFontFamily =18
+            Width =1701
+            Height =283
+            FontWeight =400
+            ForeColor =7169897
+            FontName ="Book Antiqua"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =7169897
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            BackStyle =1
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =7169897
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =7169897
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =7169897
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =11
+            BorderColor =7169897
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =7169897
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =7169897
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =7169897
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =7169897
+        End
+        Begin ToggleButton
+            TextFontCharSet =186
+            TextFontFamily =18
+            Width =283
+            Height =283
+            FontWeight =400
+            ForeColor =7169897
+            FontName ="Book Antiqua"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =204
+            Width =5103
+            Height =3402
+            FontSize =11
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =1079
+            BackColor =7169897
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xbfa98ac8c4f79a498e7e89ed1a6572e7
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextFontCharSet =0
+                    TextAlign =1
+                    TextFontFamily =34
+                    Left =1320
+                    Top =90
+                    Width =5280
+                    Height =510
+                    FontSize =18
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =15658734
+                    Name ="Auto_Title0"
+                    Caption ="Altre info - Druge informacije"
+                    FontName ="Lucida Sans"
+                    GUID = Begin
+                        0x985259a303acfb4792a4579b680ffb61
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextFontCharSet =0
+                    TextFontFamily =34
+                    Left =30
+                    Top =690
+                    Width =585
+                    Height =345
+                    FontSize =11
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =15658734
+                    Name ="Etichetta3"
+                    Caption ="Id"
+                    FontName ="Lucida Sans"
+                    GUID = Begin
+                        0x07851277af5a1a4da6919894a812dfe1
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextFontCharSet =0
+                    TextFontFamily =34
+                    Left =5700
+                    Top =690
+                    Width =4334
+                    Height =345
+                    FontSize =11
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =15658734
+                    Name ="Etichetta5"
+                    Caption ="File"
+                    FontName ="Lucida Sans"
+                    GUID = Begin
+                        0xe1f72b22e60e1841b8d901bf19453551
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextFontCharSet =0
+                    TextFontFamily =34
+                    Left =690
+                    Top =690
+                    Width =1470
+                    Height =345
+                    FontSize =11
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =15658734
+                    Name ="Etichetta7"
+                    Caption ="Data - Datum"
+                    FontName ="Lucida Sans"
+                    GUID = Begin
+                        0xb18f1f0bd69e1d438b1f482dd3cfd361
+                    End
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextFontCharSet =0
+                    TextFontFamily =34
+                    Left =2235
+                    Top =690
+                    Width =3390
+                    Height =345
+                    FontSize =11
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    ForeColor =15658734
+                    Name ="Etichetta9"
+                    Caption ="Descrizione - Opis"
+                    FontName ="Lucida Sans"
+                    GUID = Begin
+                        0x1a99bee56bca8141849cdffc17533104
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextFontCharSet =0
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =510
+                    Top =113
+                    Width =405
+                    Height =359
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    BorderColor =8695964
+                    ForeColor =15658734
+                    Name ="Id"
+                    ControlSource ="ID"
+                    FontName ="Lucida Sans"
+                    GUID = Begin
+                        0x54e809445599a64380ef59aa67e1ca63
+                    End
+
+                End
+            End
+        End
+        Begin Section
+            Height =566
+            BackColor =15658734
+            Name ="Corpo"
+            GUID = Begin
+                0xc3d4aaff53c55643971295f2c357a684
+            End
+            Begin
+                Begin TextBox
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =30
+                    Top =97
+                    Width =585
+                    Height =359
+                    TabIndex =3
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="IdA"
+                    ControlSource ="IdA"
+                    GUID = Begin
+                        0x196f9890ee9db94582cce523117a2650
+                    End
+
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    IsHyperlink = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =5700
+                    Top =97
+                    Width =4334
+                    Height =359
+                    ColumnWidth =2085
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="File"
+                    ControlSource ="File"
+                    GUID = Begin
+                        0x8efff4b1c9f5ab41beb0819908227e1b
+                    End
+
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =690
+                    Top =97
+                    Width =1470
+                    Height =359
+                    TabIndex =2
+                    LeftMargin =22
+                    TopMargin =22
+                    RightMargin =22
+                    BottomMargin =22
+                    Name ="Data"
+                    ControlSource ="Data"
+                    GUID = Begin
+                        0x92938f0ef265aa42831077beb760a9ca
+                    End
+
+                End
+                Begin ComboBox
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2235
+                    Top =97
+                    Width =3390
+                    Height =359
+                    TabIndex =1
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x8073b078d8805f43bac85d8fa7e31093
+                    End
+                    Name ="Descrizione"
+                    ControlSource ="Descrizione"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT Allegati.Descrizione FROM Allegati GROUP BY Allegati.Descrizione;"
+
+                End
+                Begin Line
+                    OverlapFlags =85
+                    Top =513
+                    Width =9771
+                    Name ="Linea14"
+                    GUID = Begin
+                        0xd329326757026141be8d6fc1523eebea
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =850
+            BackColor =14602694
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0xbbcd7646a375824e94bc934d52ef7ef2
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =9184
+                    Top =113
+                    Width =576
+                    Height =576
+                    Name ="cmdEsci"
+                    Caption ="Comando15"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x63f0e89fe6a432499ae17ce84bc4a738
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+'    If Me.Dirty Then Me.Dirty = False
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+Private Sub Form_BeforeInsert(Cancel As Integer)
+If sOpen <> "" Then
+    Id = sOpen
+    
+Else
+    'txtIdConservazione.Enabled = True
+End If
+
+End Sub
+
+Private Sub Form_Load()
+ Dim f As Form
+
+ Set f = Forms(Me.Name)
+    If Not IsNull(f.OpenArgs) Then
+        sOpen = f.OpenArgs
+      
+        
+    Else
+       sOpen = ""
+    End If
+
+End Sub

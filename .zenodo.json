@@ -1,0 +1,23 @@
+{
+  "title": "Bilingual catalogue of a sound and music archive (Microsoft Access, 2018)",
+  "upload_type": "software",
+  "description": "<p><em>Catalogo bilingue italiano-sloveno di un archivio sonoro e musicale</em></p><p>This database catalogues the recordings and scores of a sound and music archive, with a bilingual Italian–Slovene interface. Each record describes a piece by musical landscape, category and field, original and new file name, title, author, album, archive, arrangement, ensemble, performer, informant, place and date of recording, province, publisher and year, conductor, notes and score. Earlier separate lists were merged into a single catalogue through append queries.</p><p>Designed and programmed by Massimo Sbarbaro in 2018 (Microsoft Access). Published in 2026; all original data and the names of client organisations have been removed.</p>",
+  "creators": [
+    {
+      "name": "Sbarbaro, Massimo",
+      "orcid": "0009-0006-8965-9013"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Microsoft Access",
+    "sound archive",
+    "music catalogue",
+    "ethnomusicology",
+    "Italian-Slovene",
+    "cultural heritage"
+  ],
+  "version": "34",
+  "language": "eng",
+  "notes": "Original development: 2018."
+}

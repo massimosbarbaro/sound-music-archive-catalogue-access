@@ -1,0 +1,452 @@
+Version =21
+VersionRequired =20
+Checksum =-391456242
+Begin Form
+    PopUp = NotDefault
+    Modal = NotDefault
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ViewsAllowed =1
+    TabularCharSet =204
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =11395
+    DatasheetFontHeight =11
+    ItemSuffix =59
+    Left =5490
+    Top =2235
+    Right =17145
+    Bottom =4830
+    RecSrcDt = Begin
+        0x2e22d9257214e540
+    End
+    GUID = Begin
+        0x8134e79126040646a2137326e72fe8b5
+    End
+    Caption ="DbMusica"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    PictureSizeMode =1
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =10
+            BorderColor =12428870
+            ForeColor =6631992
+            FontName ="Corbel"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =12428870
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =12428870
+        End
+        Begin Image
+            BackStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =12428870
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontWeight =400
+            ForeColor =6631992
+            FontName ="Corbel"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =12428870
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            BackStyle =1
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =12428870
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =12428870
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12428870
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12428870
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12428870
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =12428870
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =12428870
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =12428870
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontWeight =400
+            ForeColor =6631992
+            FontName ="Corbel"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =204
+            Width =5103
+            Height =3402
+            FontSize =11
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =735
+            BackColor =11830108
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xe0ba48cc4f3a1b4ea32716c3b8cb6c65
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =4251
+                    Top =56
+                    Width =2130
+                    Height =540
+                    FontSize =20
+                    ForeColor =16777215
+                    Name ="Etichetta52"
+                    Caption =" CERCA/IŠCI"
+                    GUID = Begin
+                        0xa548eb98b5f9f84281947c816950a04b
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =1020
+            BackColor =15724527
+            Name ="Corpo"
+            GUID = Begin
+                0xdf2094c11508984da2ca8660895ff515
+            End
+            Begin
+                Begin ComboBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1040
+                    Top =60
+                    Width =4077
+                    Height =315
+                    ColumnWidth =3000
+                    ColumnInfo ="\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0xd07a212cc1e2dc499466aef7cfaf5451
+                    End
+                    Name ="cmdPaesaggio"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DbMusica.Paesaggio FROM DbMusica GROUP BY DbMusica.Paesaggio;"
+                    AfterUpdate ="[Event Procedure]"
+                    OnChange ="[Event Procedure]"
+                    Format ="@"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =120
+                            Top =64
+                            Width =885
+                            Height =465
+                            Name ="Paesaggio_Etichetta"
+                            Caption ="Paesaggio\015\012Krajina"
+                            GUID = Begin
+                                0xdb14d36bcb12cf41840eb17ef4c0f3c1
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    OverlapFlags =87
+                    TextAlign =1
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =6270
+                    Top =60
+                    Width =4947
+                    Height =315
+                    ColumnWidth =3000
+                    TabIndex =1
+                    ColumnInfo ="\"\";\"\";\"\";\"\";\"10\";\"510\""
+                    GUID = Begin
+                        0x91a58a91d02e3c4a89ba5c8c550ce51d
+                    End
+                    Name ="cmdCategorie"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DbMusica.Ambito FROM DbMusica GROUP BY DbMusica.Ambito;"
+                    ColumnWidths ="2268;0"
+                    Format ="@"
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =5325
+                            Top =64
+                            Width =945
+                            Height =525
+                            Name ="Categorie_Etichetta"
+                            Caption ="Ambito\015\012Podrocje"
+                            GUID = Begin
+                                0xd5f3c5bc3631e74385cc61f9fb9cce98
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =850
+            BackColor =11830108
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x38ad77f3079e5b4fb15537b14cbb9ab3
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =10714
+                    Top =113
+                    Width =576
+                    Height =576
+                    FontSize =9
+                    ForeColor =0
+                    Name ="cmdEsci"
+                    Caption ="Comando53"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x254b350d0e7c2d4084d9bc2dc0a33fb6
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4592
+                    Top =163
+                    Width =1530
+                    Height =465
+                    TabIndex =1
+                    Name ="cmdCerca"
+                    Caption ="CERCA/IŠCI"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x223a2f114aacff4ebd69d7e22f050b8b
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+
+Private Sub cmdPaesaggio_AfterUpdate()
+
+cmdCategorie.Visible = True
+Me.Requery
+
+
+
+
+End Sub
+
+Private Sub cmdCerca_Click()
+On Error GoTo Err_cmdCerca_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+    Dim swhere As String
+    
+
+    If Not cmdCategorie = "" Then
+        If Not cmdPaesaggio = "" Then
+            swhere = "[Ambito]='" & cmdCategorie & "' AND Paesaggio='" & cmdPaesaggio & "'"
+        Else
+            swhere = "[Ambito]='" & cmdCategorie & "'"
+        End If
+       
+    Else
+        If Not cmdPaesaggio = "" Then
+            swhere = "Paesaggio='" & cmdPaesaggio & "'"
+        Else
+            swhere = "Paesaggio like '*'"
+        End If
+    End If
+    
+    
+    stDocName = "fdbPulito"
+    DoCmd.OpenForm stDocName, , , swhere
+    
+    
+ '   cmdCategorie.Visible = False
+    cmdCategorie.Value = ""
+    cmdPaesaggio.Value = ""
+ '   cmdCategorie.Column(1) = cmdPaesaggio
+
+    
+    
+    
+    
+
+Exit_cmdCerca_Click:
+    Exit Sub
+
+Err_cmdCerca_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdCerca_Click
+    
+End Sub
+
+Private Sub cmdPaesaggio_Change()
+Me.Requery
+Me.Refresh
+
+
+End Sub

@@ -1,0 +1,810 @@
+Version =21
+VersionRequired =20
+Checksum =-204102914
+Begin Report
+    LayoutForPrint = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularCharSet =204
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =31473
+    DatasheetFontHeight =11
+    ItemSuffix =36
+    RecSrcDt = Begin
+        0x9c3483e4390be540
+    End
+    GUID = Begin
+        0x0816be3c2e16184b823d5772cc8ca18c
+    End
+    RecordSource ="qSchedaIngresso"
+    Caption ="qSchedaIngresso"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x680100006801000068010000d002000000000000f17a00007b01000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontCharSet =204
+            FontSize =9
+            FontWeight =700
+            BorderColor =5066944
+            ForeColor =11830108
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =5066944
+        End
+        Begin Image
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin CommandButton
+            TextFontCharSet =204
+            Width =1701
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            OldBorderStyle =0
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =5066944
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =5066944
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            TextFontCharSet =204
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =204
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontCharSet =204
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin ToggleButton
+            TextFontCharSet =204
+            Width =283
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =204
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontSize =9
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="Go.Cognome"
+        End
+        Begin BreakLevel
+            ControlSource ="RuoloReferenti.Ruolo"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Height =924
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0xf85a1f6f205e7143b6e5deba21f31989
+            End
+            Begin
+                Begin Label
+                    TextFontCharSet =186
+                    TextFontFamily =18
+                    Left =57
+                    Top =57
+                    Width =3195
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta32"
+                    Caption ="qSchedaIngresso"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0x383f5ac567bd294cb953c48324d6e936
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =406
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x8535a6bbc3abbe479cbcf42073bac5cf
+            End
+            Begin
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =345
+                    Top =57
+                    Width =1050
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Go.Cognome_Etichetta"
+                    Caption ="Go.Cognome"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Go_Cognome_Etichetta"
+                    GUID = Begin
+                        0xc2c4a8fda7986d469f46d062171ae30b
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =1455
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="RuoloReferenti.Ruolo_Etichetta"
+                    Caption ="RuoloReferenti.Ruolo"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="RuoloReferenti_Ruolo_Etichetta"
+                    GUID = Begin
+                        0xacf7da02183ac54f998c7f6ea1e74bdf
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =3624
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Go.Nome_Etichetta"
+                    Caption ="Go.Nome"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Go_Nome_Etichetta"
+                    GUID = Begin
+                        0x4c4d6cb98e18074cb388922838a020b4
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =3624
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="LuogoN_Etichetta"
+                    Caption ="LuogoN"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x8553368865962849bab1a06336d7ba37
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =3
+                    Left =3624
+                    Top =57
+                    Width =513
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Go.DataN_Etichetta"
+                    Caption ="Go.DataN"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Go_DataN_Etichetta"
+                    GUID = Begin
+                        0xd3599f55921e794fb9585a9433aed88b
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =3624
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Referenti.Cognome_Etichetta"
+                    Caption ="Referenti.Cognome"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Referenti_Cognome_Etichetta"
+                    GUID = Begin
+                        0x894acdd5f127344dae154feffdb9f333
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =5793
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Referenti.Nome_Etichetta"
+                    Caption ="Referenti.Nome"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Referenti_Nome_Etichetta"
+                    GUID = Begin
+                        0xffa0684adec6e44185cb31da70e767da
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =7962
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Lavora presso_Etichetta"
+                    Caption ="Lavora presso"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Lavora_presso_Etichetta"
+                    GUID = Begin
+                        0x622e2acd043b1241b63a1854a8f4331c
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =10131
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Ruolo.Ruolo_Etichetta"
+                    Caption ="Ruolo.Ruolo"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Ruolo_Ruolo_Etichetta"
+                    GUID = Begin
+                        0xb4bb0090dc207b4f9ecfdf2546945835
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =10131
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Starsi.Cognome_Etichetta"
+                    Caption ="Starsi.Cognome"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Starsi_Cognome_Etichetta"
+                    GUID = Begin
+                        0x2968e2c462c89f4bac94bc709a3a98d6
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =10131
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Starsi.Nome_Etichetta"
+                    Caption ="Starsi.Nome"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Starsi_Nome_Etichetta"
+                    GUID = Begin
+                        0x0ce015ce8de2b3439a6dfa8b75b8fe3b
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =3
+                    Left =10131
+                    Top =57
+                    Width =513
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Starsi.DataN_Etichetta"
+                    Caption ="Starsi.DataN"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Starsi_DataN_Etichetta"
+                    GUID = Begin
+                        0x770182a548618a47a7502899bd23ba28
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =10131
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Affidante_Etichetta"
+                    Caption ="Affidante"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x858a6911d67eb549990868d51d9d6ef8
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =10131
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Servizi minore_Etichetta"
+                    Caption ="Servizi minore"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Servizi_minore_Etichetta"
+                    GUID = Begin
+                        0xa2ffc96167676e4ba1124409de8d4aeb
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =10131
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Servizi Genitori_Etichetta"
+                    Caption ="Servizi Genitori"
+                    Tag ="DetachedLabel"
+                    EventProcPrefix ="Servizi_Genitori_Etichetta"
+                    GUID = Begin
+                        0xdd5375c900be574a828c9acc5a33965c
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =12300
+                    Top =57
+                    Width =2724
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Decisioni_Etichetta"
+                    Caption ="Decisioni"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0x8aba0419b4a2674fb905342c459e2140
+                    End
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Left =1455
+                    Top =57
+                    Width =2109
+                    Height =270
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Etichetta35"
+                    Caption ="RuoloReferenti.Ruolo"
+                    GUID = Begin
+                        0x94b5a70d76610445a9f51d57acca46bd
+                    End
+                End
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =396
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0xd2c2dda61b81814d95b4209b71820ab9
+            End
+            Begin
+                Begin TextBox
+                    DecimalPlaces =0
+                    IMESentenceMode =3
+                    Left =345
+                    Top =30
+                    Width =1050
+                    Height =270
+                    FontWeight =700
+                    ForeColor =11830108
+                    Name ="Go.Cognome"
+                    ControlSource ="Go.Cognome"
+                    EventProcPrefix ="Go_Cognome"
+                    GUID = Begin
+                        0xe7e05086cd3b724194909c26fd6c3173
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1587
+                    Width =2109
+                    Height =270
+                    TabIndex =1
+                    Name ="Go.Nome"
+                    ControlSource ="Go.Nome"
+                    EventProcPrefix ="Go_Nome"
+                    GUID = Begin
+                        0x0bd07a4ea09f794799b726489a1dcc0e
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5329
+                    Width =2109
+                    Height =270
+                    TabIndex =2
+                    Name ="LuogoN"
+                    ControlSource ="LuogoN"
+                    GUID = Begin
+                        0x6976199aba953e4ba2d31cda742ba103
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =3798
+                    Width =1413
+                    Height =270
+                    TabIndex =3
+                    Name ="Go.DataN"
+                    ControlSource ="Go.DataN"
+                    EventProcPrefix ="Go_DataN"
+                    GUID = Begin
+                        0xaf77c5270553a44186d797e1900f16c8
+                    End
+
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =3401
+            Name ="Corpo"
+            GUID = Begin
+                0xe5cfdd1d0088cc459691218d487f2c20
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1360
+                    Top =623
+                    Width =2109
+                    Height =270
+                    TabIndex =1
+                    Name ="Ruolo.Ruolo"
+                    ControlSource ="Ruolo.Ruolo"
+                    EventProcPrefix ="Ruolo_Ruolo"
+                    GUID = Begin
+                        0xefddaf4c23bf2244b88c4ae1814ff70c
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =3685
+                    Top =623
+                    Width =2109
+                    Height =270
+                    TabIndex =2
+                    Name ="Starsi.Cognome"
+                    ControlSource ="Starsi.Cognome"
+                    EventProcPrefix ="Starsi_Cognome"
+                    GUID = Begin
+                        0xe6bf5bf9f6973a4d95c916194f625a0f
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5896
+                    Top =623
+                    Width =2109
+                    Height =270
+                    TabIndex =3
+                    Name ="Starsi.Nome"
+                    ControlSource ="Starsi.Nome"
+                    EventProcPrefix ="Starsi_Nome"
+                    GUID = Begin
+                        0x96f45e4e49348f4e98ac7aa53700fc02
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =8334
+                    Top =623
+                    Width =2253
+                    Height =270
+                    TabIndex =4
+                    Name ="Starsi.DataN"
+                    ControlSource ="Starsi.DataN"
+                    EventProcPrefix ="Starsi_DataN"
+                    GUID = Begin
+                        0x149511158ef5de4281be7ca3d6633f1f
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1700
+                    Top =1247
+                    Width =10989
+                    Height =270
+                    Name ="Affidante"
+                    ControlSource ="Affidante"
+                    GUID = Begin
+                        0xd62b6f0d9ffdef43963f531e130a81c3
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1644
+                    Top =1757
+                    Width =10944
+                    Height =270
+                    TabIndex =5
+                    Name ="Servizi minore"
+                    ControlSource ="Servizi minore"
+                    EventProcPrefix ="Servizi_minore"
+                    GUID = Begin
+                        0xd4873753c982c340b81647e31660bd9b
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1644
+                    Top =2324
+                    Width =10779
+                    Height =270
+                    TabIndex =6
+                    Name ="Servizi Genitori"
+                    ControlSource ="Servizi Genitori"
+                    EventProcPrefix ="Servizi_Genitori"
+                    GUID = Begin
+                        0xde65f94ca17af142bf97ba2493f380f2
+                    End
+
+                End
+                Begin TextBox
+                    CanGrow = NotDefault
+                    IMESentenceMode =3
+                    Left =1474
+                    Top =3118
+                    Width =11229
+                    Height =270
+                    TabIndex =7
+                    Name ="Decisioni"
+                    ControlSource ="Decisioni"
+                    GUID = Begin
+                        0xde7d99ad92b0964eb2a076e4e2de81e5
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =1455
+                    Top =113
+                    Width =2109
+                    Height =270
+                    ColumnWidth =2070
+                    TabIndex =9
+                    Name ="RuoloReferenti.Ruolo"
+                    ControlSource ="RuoloReferenti.Ruolo"
+                    EventProcPrefix ="RuoloReferenti_Ruolo"
+                    GUID = Begin
+                        0xc7bbc9c538d9c7468909aae4f43a6909
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =3624
+                    Top =113
+                    Width =2109
+                    Height =270
+                    TabIndex =8
+                    Name ="Referenti.Cognome"
+                    ControlSource ="Referenti.Cognome"
+                    EventProcPrefix ="Referenti_Cognome"
+                    GUID = Begin
+                        0xabdb8b58cd3e28438067068cd943f268
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5793
+                    Top =113
+                    Width =2109
+                    Height =270
+                    TabIndex =10
+                    Name ="Referenti.Nome"
+                    ControlSource ="Referenti.Nome"
+                    EventProcPrefix ="Referenti_Nome"
+                    GUID = Begin
+                        0xf9000d834bc254419589bf1595e35a7b
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =7962
+                    Top =113
+                    Width =2109
+                    Height =270
+                    ColumnWidth =2835
+                    TabIndex =11
+                    Name ="Lavora presso"
+                    ControlSource ="Lavora presso"
+                    EventProcPrefix ="Lavora_presso"
+                    GUID = Begin
+                        0x1a1ca41ab982724bbd95953d7043e7cf
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =483
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x6072178d848a6f448053cf22a54533fe
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =57
+                    Top =228
+                    Width =5040
+                    Height =255
+                    FontSize =8
+                    Name ="Testo33"
+                    ControlSource ="=Now()"
+                    Format ="Long Date"
+                    GUID = Begin
+                        0x2181935094d2b74bb46895114fa44a4f
+                    End
+
+                End
+                Begin TextBox
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =26376
+                    Top =228
+                    Width =5040
+                    Height =255
+                    FontSize =8
+                    TabIndex =1
+                    Name ="Testo34"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    GUID = Begin
+                        0xf28754e65e72714bbc35c86c18cea467
+                    End
+
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x0aa863e95b46924f8760ecb7c92870f9
+            End
+        End
+    End
+End

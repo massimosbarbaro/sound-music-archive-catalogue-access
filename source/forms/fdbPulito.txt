@@ -1,0 +1,1041 @@
+Version =21
+VersionRequired =20
+Checksum =1071364252
+Begin Form
+    PopUp = NotDefault
+    Modal = NotDefault
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    FilterOn = NotDefault
+    OrderByOn = NotDefault
+    AllowEdits = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ViewsAllowed =1
+    TabularCharSet =204
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =16044
+    DatasheetFontHeight =11
+    ItemSuffix =60
+    Left =900
+    Top =2160
+    Right =17205
+    Bottom =10290
+    Filter ="Paesaggio like '*'"
+    OrderBy ="[DbMusica].[ID], [DbMusica].[Autore] DESC, [DbMusica].[EditoreAnno] DESC"
+    RecSrcDt = Begin
+        0x75f12ef0ae13e540
+    End
+    GUID = Begin
+        0x8134e79126040646a2137326e72fe8b5
+    End
+    RecordSource ="DbMusica"
+    Caption ="DbMusica"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =255
+    PictureSizeMode =1
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =10
+            BorderColor =12428870
+            ForeColor =6631992
+            FontName ="Corbel"
+        End
+        Begin Rectangle
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BorderColor =12428870
+        End
+        Begin Line
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =12428870
+        End
+        Begin Image
+            BackStyle =0
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BorderColor =12428870
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontWeight =400
+            ForeColor =6631992
+            FontName ="Corbel"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =12428870
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            BackStyle =1
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =12428870
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =12428870
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12428870
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12428870
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            TextFontCharSet =204
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =11
+            BorderColor =12428870
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =12428870
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =12428870
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =12428870
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontWeight =400
+            ForeColor =6631992
+            FontName ="Corbel"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =204
+            Width =5103
+            Height =3402
+            FontSize =11
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =660
+            BackColor =11830108
+            Name ="IntestazioneMaschera"
+            GUID = Begin
+                0xe0ba48cc4f3a1b4ea32716c3b8cb6c65
+            End
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    Left =6810
+                    Top =120
+                    Width =2625
+                    Height =540
+                    FontSize =20
+                    ForeColor =16777215
+                    Name ="Etichetta52"
+                    Caption ="Archivio - Arhiv"
+                    GUID = Begin
+                        0xa548eb98b5f9f84281947c816950a04b
+                    End
+                End
+            End
+        End
+        Begin Section
+            Height =6633
+            BackColor =15724527
+            Name ="Corpo"
+            GUID = Begin
+                0xdf2094c11508984da2ca8660895ff515
+            End
+            Begin
+                Begin Rectangle
+                    SpecialEffect =2
+                    BackStyle =1
+                    OverlapFlags =93
+                    Left =165
+                    Top =5835
+                    Width =15704
+                    Height =619
+                    BackColor =14211288
+                    Name ="Casella54"
+                    GUID = Begin
+                        0xca0027411289a142ab45c16f39b726ac
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =120
+                    Top =56
+                    Width =507
+                    Height =315
+                    ColumnWidth =1701
+                    Name ="IdR"
+                    ControlSource ="ID"
+                    GUID = Begin
+                        0xb1fa0b2c800ff2459975788acae7ab03
+                    End
+
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1655
+                    Top =56
+                    Width =3732
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =1
+                    Name ="Paesaggio"
+                    ControlSource ="Paesaggio"
+                    Format ="@"
+                    GUID = Begin
+                        0x09764105ab6ada4a85ff24a4ebd62c37
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =735
+                            Top =56
+                            Width =885
+                            Height =465
+                            Name ="Paesaggio_Etichetta"
+                            Caption ="Paesaggio\015\012Krajina"
+                            GUID = Begin
+                                0xdb14d36bcb12cf41840eb17ef4c0f3c1
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =9030
+                    Top =60
+                    Width =6837
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =3
+                    Name ="Ambito"
+                    ControlSource ="Ambito"
+                    Format ="@"
+                    GUID = Begin
+                        0x9a60ff9f510abd45945c50dded54b556
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =7875
+                            Top =60
+                            Width =1110
+                            Height =465
+                            Name ="Ambito_Etichetta"
+                            Caption ="Ambito\015\012Podrocje"
+                            GUID = Begin
+                                0xfc60b3410ca39d46a3c687438910eb52
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =215
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =735
+                    Top =5952
+                    Width =4872
+                    Height =330
+                    ColumnWidth =3000
+                    TabIndex =18
+                    Name ="FileNuovo"
+                    ControlSource ="FileNuovo"
+                    Format ="@"
+                    GUID = Begin
+                        0x760a6ae20b1aab469351fc30cebd32c8
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =223
+                            TextAlign =1
+                            Left =165
+                            Top =5952
+                            Width =570
+                            Height =285
+                            Name ="FileNuovo_Etichetta"
+                            Caption ="Audio"
+                            GUID = Begin
+                                0xd1912c5cbefbd7489b8d72b2de79cda6
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =900
+                    Top =570
+                    Width =6882
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =4
+                    Name ="Titolo"
+                    ControlSource ="Titolo"
+                    Format ="@"
+                    GUID = Begin
+                        0x5659588c461f43429be02835fe130ca6
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Top =570
+                            Width =855
+                            Height =525
+                            Name ="Titolo_Etichetta"
+                            Caption ="Titolo\015\012Naslov"
+                            GUID = Begin
+                                0xc60c8e04a0d97f4ab5612bd0fdb25d1b
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =9090
+                    Top =1281
+                    Width =6837
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =7
+                    Name ="Album"
+                    ControlSource ="Album"
+                    Format ="@"
+                    GUID = Begin
+                        0xe2161ce1e3fcdb4a80e13b03831d7224
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =7935
+                            Top =1281
+                            Width =1110
+                            Height =525
+                            Name ="Album_Etichetta"
+                            Caption ="Album"
+                            GUID = Begin
+                                0xab3747c98f1f1844b25971e4ed2b5431
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =9090
+                    Top =623
+                    Width =6837
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =5
+                    Name ="Archivio"
+                    ControlSource ="Archivio"
+                    Format ="@"
+                    GUID = Begin
+                        0xc75e58daf193cb4384114dc6206d1065
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =7935
+                            Top =623
+                            Width =1110
+                            Height =525
+                            Name ="Archivio_Etichetta"
+                            Caption ="Archivio\015\012Arhiv"
+                            GUID = Begin
+                                0xf01d3d46c1c8dc4c8927593e711875f2
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =900
+                    Top =1228
+                    Width =6882
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =6
+                    Name ="Autore"
+                    ControlSource ="Autore"
+                    Format ="@"
+                    GUID = Begin
+                        0x98fdae78d76d034683c9cfd1ef41acf2
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Top =1228
+                            Width =855
+                            Height =525
+                            Name ="Autore_Etichetta"
+                            Caption ="Autore\015\012Avtor"
+                            GUID = Begin
+                                0xe5e8f9805da16d4a91c8d3a545e936fc
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =9090
+                    Top =1939
+                    Width =6837
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =9
+                    Name ="Elaborazione"
+                    ControlSource ="Elaborazione"
+                    Format ="@"
+                    GUID = Begin
+                        0xc21153d1e98d9c4294a255d62fcb949a
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =7935
+                            Top =1932
+                            Width =1110
+                            Height =525
+                            Name ="Elaborazione_Etichetta"
+                            Caption ="Elaborazione\015\012Priredba"
+                            GUID = Begin
+                                0x687633564481c849a0c6eedf22576842
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =900
+                    Top =1886
+                    Width =6882
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =8
+                    Name ="Organico"
+                    ControlSource ="Organico"
+                    Format ="@"
+                    GUID = Begin
+                        0xa9fd226552542044a49c94d3433f9c47
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Top =1883
+                            Width =855
+                            Height =525
+                            Name ="Organico_Etichetta"
+                            Caption ="Organico\015\012Zasedba"
+                            GUID = Begin
+                                0xcf75c69a005c7945b376d2622ecfd333
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =900
+                    Top =2544
+                    Width =6882
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =10
+                    Name ="Esecutore"
+                    ControlSource ="Esecutore"
+                    Format ="@"
+                    GUID = Begin
+                        0x32d5ebcf6b298c43984669f6404a5130
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Top =2538
+                            Width =855
+                            Height =525
+                            Name ="Esecutore_Etichetta"
+                            Caption ="Esecutore\015\012Izvajalec"
+                            GUID = Begin
+                                0xfb0ec47e27941042bde547880927e3a3
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =9090
+                    Top =2597
+                    Width =6837
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =11
+                    Name ="Informatore"
+                    ControlSource ="Informatore"
+                    Format ="@"
+                    GUID = Begin
+                        0xa9113ddb70ae684882b6c705abcfff82
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =7935
+                            Top =2598
+                            Width =1110
+                            Height =525
+                            Name ="Informatore_Etichetta"
+                            Caption ="Informatore\015\012Informator"
+                            GUID = Begin
+                                0xa07fa202a59c514a835111df5b509701
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =1299
+                    Top =3915
+                    Width =5967
+                    Height =585
+                    ColumnWidth =3000
+                    TabIndex =14
+                    Name ="LuogoRegistrazione"
+                    ControlSource ="LuogoRegistrazione"
+                    Format ="@"
+                    GUID = Begin
+                        0xb59311c803e0dd468ee6dafd9a8d2be2
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Top =3915
+                            Width =1290
+                            Height =735
+                            Name ="LuogoRegistrazione_Etichetta"
+                            Caption ="Luogo Registrazione\015\012Kraj snemanja"
+                            GUID = Begin
+                                0x7906074884b56d4281c719dc2a7b00c7
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =87
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =9030
+                    Top =3915
+                    Width =1317
+                    Height =315
+                    ColumnWidth =3000
+                    TabIndex =15
+                    Name ="DataRegistrazione"
+                    ControlSource ="DataRegistrazione"
+                    Format ="@"
+                    GUID = Begin
+                        0xc839828ebd03e14ebdd0616b4bcd9491
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =7425
+                            Top =3915
+                            Width =1605
+                            Height =525
+                            Name ="DataRegistrazione_Etichetta"
+                            Caption ="Data registrazione\015\012Datum snemanja"
+                            GUID = Begin
+                                0x0118a2a2daa8194ab72f8f4a3eaf412b
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =87
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =11643
+                    Top =3915
+                    Width =4287
+                    Height =585
+                    ColumnWidth =3000
+                    TabIndex =16
+                    Name ="Editore"
+                    ControlSource ="EditoreAnno"
+                    Format ="@"
+                    GUID = Begin
+                        0x5c14fc16a5e44244947c4a058184aa31
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            TextAlign =1
+                            Left =10488
+                            Top =3915
+                            Width =1155
+                            Height =465
+                            Name ="Editore_Etichetta"
+                            Caption ="Editore, anno\015\012Založnik, leto"
+                            GUID = Begin
+                                0x0900460e4d39ff468b2960eea5e41d74
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =900
+                    Top =3202
+                    Width =6882
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =12
+                    Name ="Direttore"
+                    ControlSource ="DirettoreEsecuzione"
+                    Format ="@"
+                    GUID = Begin
+                        0x941445b93f1ced4197ccfeeb69a24dfc
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Top =3202
+                            Width =855
+                            Height =525
+                            Name ="Direttore_Etichetta"
+                            Caption ="Direttore\015\012Dirigent"
+                            GUID = Begin
+                                0xee3e4f8bdad9d24697378c2bb949c3f4
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =9090
+                    Top =3255
+                    Width =6837
+                    Height =555
+                    ColumnWidth =3000
+                    TabIndex =13
+                    Name ="Luogo"
+                    ControlSource ="DoveQuando"
+                    Format ="@"
+                    GUID = Begin
+                        0x220699763760514e917deb86c3a134d1
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =7935
+                            Top =3249
+                            Width =1110
+                            Height =525
+                            Name ="Luogo_Etichetta"
+                            Caption ="Luogo\015\012Kje in kdaj "
+                            GUID = Begin
+                                0x81fb2b5ce02bfe4ea199c344c1e3dfbe
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    EnterKeyBehavior = NotDefault
+                    ScrollBars =2
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =861
+                    Top =4712
+                    Width =15015
+                    Height =1023
+                    ColumnWidth =14580
+                    TabIndex =17
+                    Name ="Testo55"
+                    ControlSource ="Note"
+                    GUID = Begin
+                        0x37fc2e5c18dbe048bb455f797408de45
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Top =4712
+                            Width =810
+                            Height =525
+                            Name ="Etichetta56"
+                            Caption ="Note\015\012Opombe"
+                            GUID = Begin
+                                0xe33b24a6a4d2184d958e38bc0a9952dc
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    FontUnderline = NotDefault
+                    IsHyperlink = NotDefault
+                    OverlapFlags =215
+                    TextFontCharSet =162
+                    IMESentenceMode =3
+                    Left =7770
+                    Top =5952
+                    Width =4887
+                    Height =315
+                    TabIndex =19
+                    ForeColor =1279872587
+                    Name ="Spartito"
+                    ControlSource ="Spartito"
+                    GUID = Begin
+                        0x0db779c2c6cafc48945102ab3af63f9e
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =223
+                            Left =6180
+                            Top =5955
+                            Width =1590
+                            Height =270
+                            Name ="Etichetta57"
+                            Caption ="Spartito - Partitura"
+                            GUID = Begin
+                                0x73d0401d7684dd4cae81348865df6847
+                            End
+                        End
+                    End
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =6484
+                    Top =60
+                    Width =1311
+                    Height =315
+                    TabIndex =2
+                    Name ="Provincia"
+                    ControlSource ="Provincia"
+                    Format ="@"
+                    GUID = Begin
+                        0xcdbea7344e22cc4c871f0c43283f95cb
+                    End
+
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =5610
+                            Top =60
+                            Width =870
+                            Height =270
+                            Name ="Etichetta59"
+                            Caption ="Prov. Pok."
+                            GUID = Begin
+                                0x4f1cd6865cef34469c795faf153abdc5
+                            End
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    Left =13152
+                    Top =5952
+                    Width =2490
+                    Height =345
+                    TabIndex =20
+                    Name ="cmdDokumenti"
+                    Caption ="Altre info - Druge informacije"
+                    OnClick ="[Event Procedure]"
+                    GUID = Begin
+                        0x7a85fd5566d9924db219947d5c805a03
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+        Begin FormFooter
+            Height =850
+            BackColor =11830108
+            Name ="PièDiPaginaMaschera"
+            GUID = Begin
+                0x38ad77f3079e5b4fb15537b14cbb9ab3
+            End
+            Begin
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =15307
+                    Top =113
+                    Width =576
+                    Height =576
+                    FontSize =9
+                    ForeColor =0
+                    Name ="cmdEsci"
+                    Caption ="Comando53"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadad0dadadadadaadad00adadadadaddad030dadadadada ,
+                        0xad0330adadadadad0033300000000adaa03330ff0dadadadd03300ff0adad4da ,
+                        0xa03330ff0dad44add03330ff0ad44444a03330ff0d444444d03330ff0ad44444 ,
+                        0xa0330fff0dad44add030ffff0adad4daa00fffff0dadadadd00000000adadada ,
+                        0xadadadadadadadad000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="Chiudi maschera"
+                    GUID = Begin
+                        0x254b350d0e7c2d4084d9bc2dc0a33fb6
+                    End
+
+                    WebImagePaddingLeft =3
+                    WebImagePaddingTop =3
+                    WebImagePaddingRight =2
+                    WebImagePaddingBottom =2
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+
+Private Sub cmdEsci_Click()
+On Error GoTo Err_cmdEsci_Click
+
+
+    If Me.Dirty Then Me.Dirty = False
+    DoCmd.Close
+
+Exit_cmdEsci_Click:
+    Exit Sub
+
+Err_cmdEsci_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdEsci_Click
+    
+End Sub
+Private Sub cmdDokumenti_Click()
+On Error GoTo Err_cmdDokumenti_Click
+
+    Dim stDocName As String
+    Dim stLinkCriteria As String
+
+    stDocName = "fAllegati"
+    
+    
+    stLinkCriteria = "[ID]=" & Me![IdR]
+    sOpen = Me![IdR]
+    
+    DoCmd.OpenForm stDocName, , , stLinkCriteria, , acDialog, sOpen
+    
+
+Exit_cmdDokumenti_Click:
+    Exit Sub
+
+Err_cmdDokumenti_Click:
+    MsgBox Err.Description
+    Resume Exit_cmdDokumenti_Click
+    
+End Sub

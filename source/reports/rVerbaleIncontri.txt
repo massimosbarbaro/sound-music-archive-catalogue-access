@@ -1,0 +1,494 @@
+Version =21
+VersionRequired =20
+Checksum =726367361
+Begin Report
+    LayoutForPrint = NotDefault
+    PopUp = NotDefault
+    Modal = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    TabularCharSet =204
+    DateGrouping =1
+    GrpKeepTogether =1
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10876
+    DatasheetFontHeight =11
+    ItemSuffix =48
+    Left =4020
+    Top =2760
+    Right =15255
+    Bottom =11970
+    RecSrcDt = Begin
+        0x9b695f5f750de540
+    End
+    GUID = Begin
+        0x1407944d49d3304f8ac7ba70642aa80a
+    End
+    RecordSource ="SELECT Verbale.*, Go.Cognome, Go.Nome, Go.DataN\015\012FROM [Go] INNER JOIN Verb"
+        "ale ON Go.IdP = Verbale.IdP;"
+    Caption ="Scheda Ingresso"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x680100006801000068010000d0020000000000007c2a00005a22000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    FilterOnLoad =0
+    NoSaveCTIWhenDisabled =1
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontCharSet =161
+            FontSize =9
+            FontWeight =700
+            BorderColor =5066944
+            ForeColor =11830108
+            FontName ="Calibri"
+        End
+        Begin Rectangle
+            BorderLineStyle =0
+            Width =850
+            Height =850
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            BorderColor =5066944
+        End
+        Begin Image
+            BorderLineStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+            BackColor =5054976
+            BorderColor =-2147483617
+        End
+        Begin CommandButton
+            TextFontCharSet =161
+            Width =1701
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            OldBorderStyle =0
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+            BorderColor =5066944
+        End
+        Begin CheckBox
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =5066944
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            OldBorderStyle =0
+            TextFontCharSet =161
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+            AsianLineBreak =255
+        End
+        Begin ListBox
+            TextFontCharSet =161
+            OldBorderStyle =0
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin ComboBox
+            OldBorderStyle =0
+            TextFontCharSet =161
+            BorderLineStyle =0
+            BackStyle =0
+            Width =1701
+            LabelX =-1701
+            FontSize =9
+            BorderColor =5066944
+            FontName ="Calibri"
+        End
+        Begin Subform
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =5066944
+        End
+        Begin UnboundObjectFrame
+            BackStyle =0
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin CustomControl
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+            BorderColor =5066944
+        End
+        Begin ToggleButton
+            TextFontCharSet =161
+            Width =283
+            Height =283
+            FontSize =9
+            FontWeight =400
+            ForeColor =14919545
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            TextFontCharSet =161
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontSize =9
+            FontName ="Calibri"
+            BorderLineStyle =0
+        End
+        Begin BreakLevel
+            GroupHeader = NotDefault
+            ControlSource ="IdP"
+        End
+        Begin FormHeader
+            KeepTogether = NotDefault
+            Name ="IntestazioneReport"
+            GUID = Begin
+                0x06fb02cf50d6be449a014c12d9870da9
+            End
+            Begin
+                Begin Label
+                    TextFontCharSet =238
+                    TextFontFamily =18
+                    Left =1875
+                    Top =435
+                    Width =7365
+                    Height =525
+                    FontSize =20
+                    ForeColor =5054976
+                    Name ="Etichetta18"
+                    Caption ="VERBALE DEGLI INCONTRI DI VERIFICA"
+                    FontName ="Cambria"
+                    GUID = Begin
+                        0x70e92adfc0f36c42a9fc38c9acc4de99
+                    End
+                End
+                Begin Label
+                    Left =2154
+                    Top =56
+                    Width =7140
+                    Height =285
+                    Name ="Etichetta27"
+                    Caption ="COMUNE - PIANO DI ZONA \"BUONE PRATICHE NELLE COMUNITA' EDUCATIVE\""
+                    GUID = Begin
+                        0x8999da8508d79f42873b8eb7f67b7400
+                    End
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    IMESentenceMode =3
+                    Left =7823
+                    Top =566
+                    Width =330
+                    Height =270
+                    FontWeight =700
+                    ForeColor =11830108
+                    Name ="IdP"
+                    ControlSource ="IdP"
+                    GUID = Begin
+                        0x919af28ade42b147b745de68ff1f5faf
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =7488
+                    Top =1008
+                    Width =1146
+                    Height =270
+                    TabIndex =1
+                    Name ="Data"
+                    ControlSource ="Data"
+                    GUID = Begin
+                        0x882fb9c1bcd9ee4db8802b7cbc75f691
+                    End
+
+                End
+                Begin Label
+                    Left =6875
+                    Top =1005
+                    Width =510
+                    Height =270
+                    Name ="Etichetta29"
+                    Caption ="DATA"
+                    GUID = Begin
+                        0x9795c8054d7ff645ae44fe9cf84bbdad
+                    End
+                End
+                Begin Line
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    Left =7485
+                    Top =1290
+                    Width =1438
+                    Name ="Linea32"
+                    GUID = Begin
+                        0x5e7408de6b8f1141a79b2b69f3d0b433
+                    End
+                End
+            End
+        End
+        Begin PageHeader
+            Height =0
+            Name ="SezioneIntestazionePagina"
+            GUID = Begin
+                0x9a93604dad6421489757f5f0684fdb46
+            End
+        End
+        Begin BreakHeader
+            KeepTogether = NotDefault
+            Height =2574
+            Name ="IntestazioneGruppo0"
+            GUID = Begin
+                0xd1c5a0bd954ec143a95f0b9712691a75
+            End
+            Begin
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =3118
+                    Top =112
+                    Width =1860
+                    Height =270
+                    FontWeight =700
+                    ForeColor =11830108
+                    Name ="Cognome"
+                    ControlSource ="Cognome"
+                    GUID = Begin
+                        0x75940c279adeec4d86be46d227e0297c
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =5215
+                    Top =113
+                    Width =1860
+                    Height =270
+                    FontWeight =700
+                    TabIndex =1
+                    ForeColor =11830108
+                    Name ="Nome"
+                    ControlSource ="Nome"
+                    GUID = Begin
+                        0x44f371e60a72134ba254c90c09c566dd
+                    End
+
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =7200
+                    Top =150
+                    Width =1590
+                    Height =270
+                    FontWeight =700
+                    TabIndex =2
+                    ForeColor =11830108
+                    Name ="DataN"
+                    ControlSource ="DataN"
+                    GUID = Begin
+                        0x8ea63bd47da57942af4a567358d4b518
+                    End
+
+                End
+                Begin Label
+                    BackStyle =1
+                    TextAlign =1
+                    Top =56
+                    Width =2955
+                    Height =735
+                    BackColor =14919545
+                    ForeColor =5054976
+                    Name ="Cognome_Etichetta"
+                    Caption ="BAMBINO/A O RAGAZZO/A - MADRE \015\012(Nome e cognome luogo e data di nascita)"
+                    Tag ="DetachedLabel"
+                    GUID = Begin
+                        0xb270322112b20042921642d9e12dd6b4
+                    End
+                End
+                Begin Rectangle
+                    BackStyle =0
+                    BorderWidth =1
+                    Width =10771
+                    Height =2369
+                    Name ="Casella38"
+                    GUID = Begin
+                        0x37a7d5c02587b84a979ca21d410feaba
+                    End
+                End
+                Begin TextBox
+                    IMESentenceMode =3
+                    Left =720
+                    Top =1008
+                    Width =10086
+                    Height =1155
+                    TabIndex =3
+                    Name ="Presenti"
+                    ControlSource ="Presenti"
+                    GUID = Begin
+                        0x7b6a3fbe4d91494ba2944997eba8f522
+                    End
+
+                    Begin
+                        Begin Label
+                            Top =1008
+                            Width =720
+                            Height =270
+                            Name ="Etichetta39"
+                            Caption ="Presenti"
+                            GUID = Begin
+                                0x8e6023bc2dc0724b889f8c7412805c7b
+                            End
+                        End
+                    End
+                End
+            End
+        End
+        Begin Section
+            KeepTogether = NotDefault
+            CanGrow = NotDefault
+            Height =8794
+            Name ="Corpo"
+            GUID = Begin
+                0x7ca6b9b0b15a4943abf6af234ca82109
+            End
+            Begin
+                Begin TextBox
+                    CanGrow = NotDefault
+                    CanShrink = NotDefault
+                    OldBorderStyle =1
+                    IMESentenceMode =3
+                    Left =144
+                    Top =144
+                    Width =10500
+                    Height =8490
+                    BorderColor =0
+                    Name ="Verbale"
+                    ControlSource ="Verbale"
+                    GUID = Begin
+                        0xc7d43164ae758740b54d0ad1305a701a
+                    End
+
+                End
+            End
+        End
+        Begin PageFooter
+            Height =1417
+            Name ="SezionePièDiPaginaPagina"
+            GUID = Begin
+                0x96a98afa20d4184196c2f688b8cab82d
+            End
+            Begin
+                Begin TextBox
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =6081
+                    Top =907
+                    Width =4515
+                    Height =255
+                    FontSize =8
+                    Name ="Testo20"
+                    ControlSource ="=\"Pagina \" & [Page] & \" di \" & [Pages]"
+                    GUID = Begin
+                        0x1b6ce01b751d91479ee9fcb1fb38d2c3
+                    End
+
+                End
+                Begin Label
+                    Left =2775
+                    Top =60
+                    Width =2580
+                    Height =270
+                    Name ="Etichetta30"
+                    Caption ="FIRMA DELL'ASSISTENTE SOCIALE"
+                    GUID = Begin
+                        0xbe5e8d221761f54a8181edbef24b4214
+                    End
+                End
+                Begin Label
+                    Left =7823
+                    Top =60
+                    Width =1950
+                    Height =270
+                    Name ="Etichetta31"
+                    Caption ="FIRMA DELL'EDUCATORE"
+                    GUID = Begin
+                        0x7ce3b78f1c4ffc49a9ce9b15121968de
+                    End
+                End
+                Begin Line
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    Left =2775
+                    Top =570
+                    Width =2548
+                    Name ="Linea33"
+                    GUID = Begin
+                        0x5bbc3d830ab0fa458337543a6e1578cc
+                    End
+                End
+                Begin Line
+                    OldBorderStyle =1
+                    BorderWidth =1
+                    Left =7650
+                    Top =570
+                    Width =2548
+                    Name ="Linea34"
+                    GUID = Begin
+                        0x4fc42966ca715a4c835587bdbfbdd76a
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            KeepTogether = NotDefault
+            Height =0
+            Name ="PièDiPaginaReport"
+            GUID = Begin
+                0x2ae571523fc57e4a95c5e4117fa7f000
+            End
+        End
+    End
+End
