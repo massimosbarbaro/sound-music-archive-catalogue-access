@@ -1,5 +1,7 @@
 # Bilingual catalogue of a sound and music archive
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23205224.svg)](https://doi.org/10.5281/zenodo.23205224)
+
 *Catalogo bilingue italiano-sloveno di un archivio sonoro e musicale*
 
 **Microsoft Access** · 2018 · version 34  
@@ -45,9 +47,9 @@ The database is published **empty**: every table has been emptied and the file c
 
 ## How to cite
 
-Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). Each release is archived on Zenodo with its own DOI.
+Use the citation metadata in [`CITATION.cff`](CITATION.cff) (GitHub: *Cite this repository*). The release is archived on Zenodo with the DOI [10.5281/zenodo.23205224](https://doi.org/10.5281/zenodo.23205224).
 
-> Sbarbaro, Massimo. *Bilingual catalogue of a sound and music archive (Microsoft Access, 2018)*. Software, version 34. GitHub: https://github.com/massimosbarbaro/sound-music-archive-catalogue-access
+> Sbarbaro, Massimo. 2018. *Bilingual catalogue of a sound and music archive*. Software (Microsoft Access, 2018), version 34. Zenodo. https://doi.org/10.5281/zenodo.23205224.
 
 ## License
 
